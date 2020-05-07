@@ -27,6 +27,7 @@ body, html
 .background-space
 {
 	background: url(../images/space.png);
+	background-size: 100% 100%;
 	position: absolute;
 	z-index: 1;
 }
@@ -34,7 +35,7 @@ body, html
 .background-tree
 {
 	background: url(../images/tree.png);
-	background-size: 100%;
+	background-size: 100% 100%;
 	z-index: 2;
 	-webkit-filter: blur(1px);
 	-moz-filter: blur(1px);
