@@ -5,7 +5,7 @@ body, html
 	padding: 0;
 	margin: 0;
 	font-family: helvetica, arial;
-	font-size: 16px;
+	font-size: 26px;
 	color: #111;
 	background: #f6f6f6;
 }
@@ -13,4 +13,19 @@ body, html
 .wrapper
 {
 	width: 100%;
+}
+
+.main
+{
+	width: 60%;
+	margin: 50px auto;
+}
+
+.img
+{
+	display: block;
+	width: 90%;
+	height: 500px;
+	background: #bbb;
+	margin: 10px auto;
 }
