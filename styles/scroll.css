@@ -29,3 +29,23 @@ body, html
 	background: #bbb;
 	margin: 10px auto;
 }
+
+.particles
+{
+	position: absolute;
+	left: -9999999px;
+}
+
+.particle
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	display: block;
+	width: 100px;
+	height: 100px;
+	filter: blur(0px);
+	z-index: 1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
