@@ -35,7 +35,7 @@ body, html
 .background-tree
 {
 	background: url(../images/tree.png);
-	background-size: 100% 100%;
+	background-size: 105% 105%;
 	z-index: 2;
 	-webkit-filter: blur(1px);
 	-moz-filter: blur(1px);
